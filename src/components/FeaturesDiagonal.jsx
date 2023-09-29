@@ -40,12 +40,15 @@ export const FeaturesDiagonal = () => {
             <p className="mb-16 text-customGrayText leading-loose">
               Construimos y lanzamos tus proyectos de diseño web a medida sin complicaciones, liberando todo tu potencial creativo. Eleva la productividad y alcanza resultados excepcionales. Potencia tu toma de decisiones con un enfoque avanzado en analítica y diseño, para crear páginas web únicas que reflejen tu visión.
             </p>
-            <div
-              className="w-fit px-2 h-12 custom-button-colored mr-10  text-sm sm:mb-10 lg:mb-0"
-              onClick={() => setIsModalOpen(true)}
-            >
-              Se la próxima historia de éxito
-            </div>
+            <a href="#pricing">
+              <div
+                className="w-fit px-2 h-12 custom-button-colored mr-10  text-sm sm:mb-10 lg:mb-0"
+
+              >
+
+                Se la próxima historia de éxito
+              </div>
+            </a>
           </div>
 
           <div className="w-11/12 sm:w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 justify-center order-last ">

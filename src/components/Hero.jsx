@@ -38,7 +38,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            En Lazaro Tech, no nos conformamos con menos. Somos la chispa que enciende el camino hacia el éxito en línea.<br/> Con pasión desbordante y un enfoque profesional de primera, ofrecemos servicios de marketing digital diseñados para llevar a tu negocio a la cima.
+            En Lazaro Tech, no nos conformamos con menos. Somos la chispa que enciende el camino hacia el éxito en línea.<br /> Con pasión desbordante y un enfoque profesional de primera, ofrecemos servicios de marketing digital diseñados para llevar a tu negocio a la cima.
           </div>
         </motion.div>
         <motion.div
@@ -47,13 +47,16 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
-            <div
-              style={{ border: '2px solid #776391', color: '#f5f5f7', }}
-              className="rounded-xl cursor-pointer w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0 flex justify-center items-center"
-              onClick={() => setIsModalOpen(true)}
-            >
-Comienza ahora
-            </div>
+            <a href="#pricing">
+
+              <div
+                style={{ border: '2px solid #776391', color: '#f5f5f7', }}
+                className="rounded-xl cursor-pointer w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0 flex justify-center items-center"
+
+              >
+                Comienza ahora
+              </div>
+            </a>
           </div>
         </motion.div>
         <motion.div
