@@ -66,7 +66,7 @@ export const Hero = () => {
         >
           <div className="relative w-screen flex justify-center w-full ">
             <div className="lg:w-3/5 sm:w-screen mx-2 " style={{ border: '1px solid rgba(0,0,0,0.5)', WebkitBoxShadow: ' 5px 8px 65px 11px rgba(119,99,145,1)', MozBoxShadow: '5px 8px 65px 11px rgba(119,99,145,1)', boxShadow: '5px 8px 65px 11px rgba(119,99,145,1)', borderRadius: '50px' }}>
-              <video src="/espanol.webm" className="" playsInline controls muted loop autoPlay style={{ borderRadius: '50px' }} />
+              <video src="/secuencia01.mp4" className="" playsInline controls muted loop autoPlay style={{ borderRadius: '50px' }} />
             </div>
           </div>
         </motion.div>
