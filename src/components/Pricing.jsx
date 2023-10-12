@@ -56,7 +56,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      $350
+                      $350 USD
                     </div>
                     <div className="text-gray-500">
                       / month
@@ -106,7 +106,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      $650
+                      $650 USD
                     </div>
                     <div className="text-gray-500">
                       / month
@@ -156,7 +156,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      $900
+                      $900 USD
                     </div>
                     <div className="text-gray-500">
                       / month
