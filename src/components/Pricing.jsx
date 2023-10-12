@@ -55,7 +55,7 @@ export const Pricing = () => {
                     Básico
                   </h4>
                   <div className="flex justify-start items-end">
-                    <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
+                    <div className="text-4xl font-bold text-white text-left mt-4 mr-2">
                       $350 USD
                     </div>
                     <div className="text-gray-500">
@@ -105,7 +105,7 @@ export const Pricing = () => {
                     Estándar
                   </h4>
                   <div className="flex justify-start items-end">
-                    <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
+                    <div className="text-4xl font-bold text-white text-left mt-4 mr-2">
                       $650 USD
                     </div>
                     <div className="text-gray-500">
@@ -155,7 +155,7 @@ export const Pricing = () => {
                     Premium
                   </h4>
                   <div className="flex justify-start items-end">
-                    <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
+                    <div className="text-4xl font-bold text-white text-left mt-4 mr-2">
                       $900 USD
                     </div>
                     <div className="text-gray-500">
